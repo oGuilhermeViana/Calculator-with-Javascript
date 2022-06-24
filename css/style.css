@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background: linear-gradient(45deg, black, crimson) no-repeat;
+
+  height: 100vh;
+
+  color: azure;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.calculator {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.856);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+button {
+  width: 3.125rem;
+  height: 3.125rem;
+  font-size: 1.5625rem;
+  cursor: pointer;
+  background-color: rgb(34, 31, 31);
+  color: azure;
+  
+}
+
+button:hover {
+  background-color:black;
+}
+
+#result {
+  background-color: azure;
+  width: 12.9375rem;
+  height: 1.8rem;
+  margin: 0.3125rem;
+  font-size: 1rem;
+  color: black;
+  text-align: right;
+  padding: 0.3125rem;
+}
