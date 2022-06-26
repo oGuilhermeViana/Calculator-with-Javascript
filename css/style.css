@@ -48,4 +48,25 @@ button:hover {
   color: black;
   text-align: right;
   padding: 0.3125rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* barra de rolagem*/
+::-webkit-scrollbar {
+  height: 4px;
+}
+
+/*Trilha (barra de progresso) da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: gray;
+}
+
+/*Alça da rolagem arrastável*/
+::-webkit-scrollbar-thumb {
+  background-color: rgb(126, 18, 214);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(71, 13, 119);
 }
