@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(45deg, black, crimson) no-repeat;
+  background: linear-gradient(45deg, black, rgb(126, 18, 214)) no-repeat;
 
   height: 100vh;
 
