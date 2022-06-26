@@ -1,2 +1,4 @@
 # Calculator
- jogo da velha com javascript
+ calculadora com Javascript
+ 
+ <a href="https://oguilhermeviana.github.io/Calculator-with-Javascript/">Calculadora</a>
